@@ -7,5 +7,6 @@ tar zxvf v3.1.30.tar.gz
 cd smarty-3.1.30/
 cp -R libs/ /var/www/html/Smarty
 cd
+su
 cd /var/www/html
 mkdir templates templates_c
