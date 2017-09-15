@@ -6,6 +6,8 @@ apt-get upgrade
 apt-get install linux-headers-$(uname -r)
 apt-get install build-essential module-assistant
 
-mount /media/cdrom
-cd /media/cdrom
-sh VboxLinuxAdditions.run;reboot
+mount /media/cdrom0
+cd /media/cdrom0
+sh VboxLinuxAdditions.run
+
+reboot
