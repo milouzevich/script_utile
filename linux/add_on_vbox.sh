@@ -8,6 +8,6 @@ apt-get install build-essential module-assistant
 
 mount /media/cdrom0
 cd /media/cdrom0
-sh VboxLinuxAdditions.run
+sh VBoxLinuxAdditions.run
 
 reboot
